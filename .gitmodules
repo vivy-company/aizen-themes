@@ -1,0 +1,3 @@
+[submodule "zed-extension"]
+	path = zed-extension
+	url = git@github.com:vivy-company/zed-aizen-theme.git
