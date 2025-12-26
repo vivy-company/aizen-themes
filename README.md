@@ -59,6 +59,37 @@ mkdir -p ~/.cursor/extensions/aizen-theme && cp -r vscode/* ~/.cursor/extensions
 
 Restart editor, then `Cmd+K Cmd+T` → "Aizen Dark" or "Aizen Light"
 
+### Vim
+
+```bash
+mkdir -p ~/.vim/colors
+cp vim/colors/*.vim ~/.vim/colors/
+```
+
+Set in `~/.vimrc`:
+```vim
+colorscheme aizen_dark
+```
+
+### Neovim
+
+```bash
+# Option 1: Copy to runtime path
+mkdir -p ~/.config/nvim/colors ~/.config/nvim/lua
+cp -r nvim/colors/* ~/.config/nvim/colors/
+cp -r nvim/lua/* ~/.config/nvim/lua/
+
+# Option 2: Use with lazy.nvim
+# { "vivy-company/aizen-themes", config = function() vim.cmd("colorscheme aizen_dark") end }
+```
+
+Set in `init.lua`:
+```lua
+vim.cmd("colorscheme aizen_dark")
+-- or with options:
+require("aizen").setup({ style = "dark" }) -- or "light"
+```
+
 ## Colors
 
 ### Dark Theme
