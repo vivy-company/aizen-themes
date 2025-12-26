@@ -8,8 +8,8 @@ Custom editor themes inspired by:
 
 ## Themes
 
-- **Aizen Dark** - Dark theme with Raycast-style background (#1a1a1a) + Catppuccin Mocha syntax + soft peach accents
-- **Aizen Light** - Light theme with Catppuccin Latte colors
+- **Aizen Dark**
+- **Aizen Light**
 
 ## Installation
 
