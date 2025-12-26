@@ -8,8 +8,8 @@ Custom editor themes inspired by:
 
 ## Themes
 
-- **Aizen Dark**
-- **Aizen Light**
+- **Aizen Dark** - Midnight coding sessions with warm peach glow and soft purple haze
+- **Aizen Light** - Sunrise clarity with vibrant citrus accents and crisp meadow greens
 
 ## Installation
 
