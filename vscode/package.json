@@ -1,6 +1,7 @@
 {
   "name": "aizen-theme",
   "displayName": "Aizen Theme",
+  "publisher": "wiedymi",
   "description": "Midnight coding sessions with warm peach glow",
   "version": "1.0.0",
   "engines": {
