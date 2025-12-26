@@ -47,6 +47,18 @@ cp zed/aizen.json ~/.config/zed/themes/
 
 Select theme: `Cmd+K Cmd+T` → "Aizen Dark" or "Aizen Light"
 
+### VS Code / Cursor
+
+```bash
+# VS Code
+mkdir -p ~/.vscode/extensions/aizen-theme && cp -r vscode/* ~/.vscode/extensions/aizen-theme/
+
+# Cursor
+mkdir -p ~/.cursor/extensions/aizen-theme && cp -r vscode/* ~/.cursor/extensions/aizen-theme/
+```
+
+Restart editor, then `Cmd+K Cmd+T` → "Aizen Dark" or "Aizen Light"
+
 ## Colors
 
 ### Dark Theme

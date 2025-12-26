@@ -1,0 +1,26 @@
+{
+  "name": "aizen-theme",
+  "displayName": "Aizen Theme",
+  "description": "Midnight coding sessions with warm peach glow",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Aizen Dark",
+        "uiTheme": "vs-dark",
+        "path": "./aizen-dark.json"
+      },
+      {
+        "label": "Aizen Light",
+        "uiTheme": "vs",
+        "path": "./aizen-light.json"
+      }
+    ]
+  }
+}
