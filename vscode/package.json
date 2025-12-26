@@ -1,9 +1,13 @@
 {
   "name": "aizen-theme",
   "displayName": "Aizen Theme",
-  "publisher": "wiedymi",
+  "publisher": "vivy",
   "description": "Midnight coding sessions with warm peach glow",
   "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vivy-company/aizen-themes"
+  },
   "engines": {
     "vscode": "^1.60.0"
   },
