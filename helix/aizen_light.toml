@@ -1,0 +1,129 @@
+# Aizen Light
+"attribute" = "yellow"
+"type" = "yellow"
+"type.builtin" = "yellow"
+"type.enum.variant" = "teal"
+"constructor" = "sapphire"
+"constant" = "peach"
+"constant.character" = "teal"
+"constant.character.escape" = "pink"
+"constant.numeric" = "peach"
+"string" = "green"
+"string.regexp" = "pink"
+"string.special" = "blue"
+"string.special.symbol" = "red"
+"comment" = { fg = "overlay1", modifiers = ["italic"] }
+"variable" = "text"
+"variable.builtin" = "red"
+"variable.parameter" = { fg = "maroon", modifiers = ["italic"] }
+"variable.other.member" = "blue"
+"label" = "sapphire"
+"punctuation" = "overlay1"
+"punctuation.special" = "sky"
+"keyword" = "mauve"
+"keyword.control.conditional" = { fg = "mauve", modifiers = ["italic"] }
+"operator" = "sky"
+"function" = "peach"
+"function.builtin" = "peach"
+"function.method" = "peach"
+"function.macro" = "mauve"
+"tag" = "blue"
+"namespace" = { fg = "yellow", modifiers = ["italic"] }
+"special" = "blue"
+"markup.heading.1" = "red"
+"markup.heading.2" = "peach"
+"markup.heading.3" = "yellow"
+"markup.heading.4" = "green"
+"markup.heading.5" = "sapphire"
+"markup.heading.6" = "lavender"
+"markup.list" = "teal"
+"markup.list.unchecked" = "overlay1"
+"markup.list.checked" = "green"
+"markup.bold" = { fg = "red", modifiers = ["bold"] }
+"markup.italic" = { fg = "red", modifiers = ["italic"] }
+"markup.link.url" = { fg = "blue", modifiers = ["italic", "underlined"] }
+"markup.link.text" = "lavender"
+"markup.link.label" = "sapphire"
+"markup.raw" = "green"
+"diff.plus" = "green"
+"diff.minus" = "red"
+"diff.delta" = "yellow"
+
+# UI (Light backgrounds)
+"ui.background" = { bg = "base" }
+"ui.cursor" = { fg = "base", bg = "peach" }
+"ui.cursor.primary" = { fg = "base", bg = "peach" }
+"ui.cursor.insert" = { fg = "base", bg = "green" }
+"ui.cursor.select" = { fg = "base", bg = "mauve" }
+"ui.cursor.match" = { fg = "peach", modifiers = ["bold"] }
+"ui.cursor.primary.normal" = { fg = "base", bg = "peach" }
+"ui.cursor.primary.insert" = { fg = "base", bg = "green" }
+"ui.cursor.primary.select" = { fg = "base", bg = "lavender" }
+"ui.cursorline.primary" = { bg = "mantle" }
+"ui.linenr" = "surface1"
+"ui.linenr.selected" = "lavender"
+"ui.statusline" = { fg = "text", bg = "crust" }
+"ui.statusline.inactive" = { fg = "overlay0", bg = "crust" }
+"ui.statusline.normal" = { fg = "base", bg = "blue" }
+"ui.statusline.insert" = { fg = "base", bg = "green" }
+"ui.statusline.select" = { fg = "base", bg = "mauve" }
+"ui.selection" = { bg = "surface1" }
+"ui.selection.primary" = { bg = "surface1" }
+"ui.text" = "text"
+"ui.text.focus" = "text"
+"ui.text.directory" = "blue"
+"ui.virtual.whitespace" = "surface1"
+"ui.virtual.ruler" = { bg = "mantle" }
+"ui.virtual.indent-guide" = "surface0"
+"ui.virtual.inlay-hint" = { fg = "overlay0", bg = "mantle" }
+"ui.menu" = { fg = "overlay1", bg = "crust" }
+"ui.menu.selected" = { fg = "text", bg = "surface0", modifiers = ["bold"] }
+"ui.menu.scroll" = { fg = "overlay0" }
+"ui.popup" = { fg = "text", bg = "crust" }
+"ui.window" = "surface0"
+"ui.help" = { fg = "text", bg = "crust" }
+"ui.highlight" = { bg = "surface0", modifiers = ["bold"] }
+"ui.bufferline" = { fg = "overlay0", bg = "crust" }
+"ui.bufferline.active" = { fg = "text", bg = "base" }
+"ui.bufferline.background" = { bg = "crust" }
+"ui.virtual.jump-label" = { fg = "red", modifiers = ["bold"] }
+
+# Diagnostics
+"diagnostic.error" = { underline = { color = "red", style = "curl" } }
+"diagnostic.warning" = { underline = { color = "yellow", style = "curl" } }
+"diagnostic.info" = { underline = { color = "sky", style = "curl" } }
+"diagnostic.hint" = { underline = { color = "teal", style = "curl" } }
+"diagnostic.unnecessary" = { modifiers = ["dim"] }
+"diagnostic.deprecated" = { modifiers = ["crossed_out"] }
+"error" = "red"
+"warning" = "yellow"
+"info" = "sky"
+"hint" = "teal"
+
+[palette]
+base = "#f0f2f6"
+mantle = "#e8eaf0"
+crust = "#dde0e8"
+surface0 = "#cdd2dc"
+surface1 = "#bdc2cc"
+surface2 = "#adb2bc"
+text = "#4a4d66"
+subtext1 = "#5a5d74"
+subtext0 = "#6a6d82"
+overlay2 = "#7a7d90"
+overlay1 = "#8a8d9e"
+overlay0 = "#9a9dac"
+rosewater = "#da8874"
+flamingo = "#db7474"
+pink = "#e874c8"
+mauve = "#8636ec"
+red = "#d00c36"
+maroon = "#e44250"
+peach = "#fc6008"
+yellow = "#dd8c1a"
+green = "#3e9e28"
+teal = "#159096"
+sky = "#02a2e2"
+sapphire = "#1e9cb2"
+blue = "#1c64f2"
+lavender = "#7084fa"
